@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ APP</title>
+    <link rel="stylesheet" href="quizApp.css">
+</head>
+
+<body>
+    
+    <div class="container text-center">
+
+        <div class="headinds text-center">
+            <h1>Welcome To Quiz App</h1>
+            <h2>JavaScript Programming Quiz</h2>
+            <div>
+                <p>Choose Difficulty Level</p>
+                <button class="difficultyButtons" id="beginner" onclick=difficulty(this) value="biggener">biggener</button>
+                <button class="difficultyButtons" id="intermediate" onclick=difficulty(this) value="intermediate"> intermediate</button>
+                <button class="difficultyButtons" id="expert" onclick=difficulty(this) value="expert">expert</button>
+            </div>
+            <button id="startQuiz" onclick="startQuiz(); unfade()">Start Quiz</button>
+        </div>
+
+        <div id="questions">
+
+
+        </div>
+
+        <button id="submitAnswers" onclick="checkResult()"> Submit Answers</button>
+        <div id="points"></div>
+
+    <script src="quizApp.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#startQuiz , #submitAnswers{
+    width: 6.5rem;
+    height: 3rem;
+    background-color: rgb(255, 218, 69);
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    border: solid rgb(249, 243, 255);
+    cursor: pointer;
+    display: none;
+    margin-left: 46%;
+    margin-top: 20px;
+    border: solid rgb(160, 160, 160);
+    
+}
+
+#startQuiz:hover, #submitAnswers:hover{
+    border: none;
+    box-shadow: 1px 3px 2px rgb(12, 12, 12);
+}
+
+#submitAnswers{
+    width: auto;
+    padding: 6px;
+    
+    margin-bottom: 50px;
+    display: none;
+}
+
+#questions{
+    background-color: rgb(236, 236, 236);
+    padding: 5px;
+    /* border: solid; */
+    height: auto;
+    margin: 20px 20px;
+    text-align: left;
+}
+
+.statement{
+    color: rgb(82, 20, 20);
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+label{
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.option{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.correctAnswer{
+    display: none;
+    color: rgb(0, 0, 0);
+    margin: 10px 20px;
+}
+
+.correctAnswer > div{
+    color: red;
+    margin-left: 10px;
+}
+
+#questions{
+    display: none;
+}
+
+#points{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+    /* border: solid; */
+    /* display: none; */
+}
+
+.difficultyButtons{
+    cursor: pointer;
+    box-shadow: 2px 2px 10px black;
+    font-weight: 600;
+    text-align: center;
+    width: 120px;
+    padding: 15px;
+    background-color: rgb(255, 133, 32);
+    margin: 10px;
+}
+
+#expert{
+    background-color: rgb(255, 14, 14);
+}
+
+#expert:hover{
+    background-color: rgb(206, 0, 0)
+}
+
+#intermediate{
+    background-color: orange;
+}
+
+#intermediate:hover{
+    background-color: rgb(215, 140, 0);
+}
+
+#beginner{
+    background-color: lightskyblue;
+}
+
+#beginner:hover{
+    background-color: rgb(81, 188, 255);
+}
